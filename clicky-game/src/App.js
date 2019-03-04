@@ -1,6 +1,6 @@
 // Dependencies
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
@@ -12,14 +12,14 @@ class App extends Component {
   // Set State/Score to 0
   state = {
     pokemon,
-    pokeClick: [],
+    clickedPokemon: [],
     score: 0
   };
 
   // Clicking on a Pokemon card removes the Pokemon from the array
   picClick = event => {
     const currentPokemon = event.target.alt;
-    const clickedPokemon = this.state.pokeClick.indexOf(currentPokemon) > -1;
+    const clickedPokemon = this.state.clickedPokemon.indexOf(currentPokemon) > -1;
 
     // If a Pokemon was already clicked, restart the game
     if (clickedPokemon) {
@@ -69,7 +69,7 @@ class App extends Component {
         <div className="container">
         {this.state.pokemon.map(pokemon => (
           <PokeCard 
-          pokeClick={this.pokeClick}
+          picClick={this.picClick}
           id={pokemon.id}
           key={pokemon.id}
           image={pokemon.image}
