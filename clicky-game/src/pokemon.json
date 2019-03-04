@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "bulbasaur.png"
+    },
+    {
+        "id": 2,
+        "image": "charmeleon.png"
+    },
+    {
+        "id": 3,
+        "image": "dragonite.png"
+    },
+    {
+        "id": 4,
+        "image": "eevee.png"
+    },
+    {
+        "id": 5,
+        "image": "flareon.png"
+    },
+    {
+        "id": 6,
+        "image": "jolteon.png"
+    },
+    {
+        "id": 7,
+        "image": "kadabra.png"
+    },
+    {
+        "id": 8,
+        "image": "metapod.png"
+    },
+    {
+        "id": 9,
+        "image": "ninetales.png"
+    },
+    {
+        "id": 10,
+        "image": "pikachu.png"
+    },
+    {
+        "id": 11,
+        "image": "vaporeon.png"
+    },
+    {
+        "id": 12,
+        "image": "wartortle.png"
+    }
+]
