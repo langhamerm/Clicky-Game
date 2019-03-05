@@ -1,5 +1,5 @@
 .header{
-	background-image: url("http://rtig.org.uk/web/Portals/_default/Skins/Minimalist-Ocean-Gradient-Skins/backgrounds/Red/11_image.jpg");
+	background: red;
 	position: relative;
 	width: 100%;
 	height: 280px;
@@ -9,15 +9,15 @@ h1{
 	text-align: center;
 	font-size: 90px;
 	font-weight: bold;
-	color: lightskyblue;
+	color: yellow;
 	text-shadow: blue 2px 2px;
 	padding: 90px 0 20px 0; 
 }
 
 h2{
 	text-align: center;
-	font-size: 25px;
-	color: lightskyblue;
+	font-size: 36px;
+	color: yellow;
 	text-shadow: blue 2px 2px;
 	padding-bottom: 40px;
 }
